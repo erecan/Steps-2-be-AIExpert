@@ -29,7 +29,8 @@ To obtain the source code we use "??"
 3. %lprun, Line-by-Line profiler is external package can be installed with command >> pip install line_profiler, can calculate the time consumption of a line of a code block.
 
 Notes about NumPy(Numerical Python):
-1. Especially for larger arrays, it is more efficient to create arrays from scratch using routines built into Numpy;
+1. 
+Especially for larger arrays, it is more efficient to create arrays from scratch using routines built into Numpy;
 
 In[12]: # Create a length-10 integer array filled with zeros
     np.zeros(10, dtype=int)
