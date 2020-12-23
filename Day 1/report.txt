@@ -1,100 +1,101 @@
-1. Downloaded Python Data Science Handbook.
-2. Installed numpy, pandas, scikit-learn, matplotlib, seaborn and ipython.
+What did I do today?
+    1. Downloaded Python Data Science Handbook.
+    2. Installed numpy, pandas, scikit-learn, matplotlib, seaborn and ipython.
 
 Notes about IPython(Interactive Python):
-1. 
-To create a docstring for a function we need to put string literal in the first line.
-    def square(a):
-        """Return the square of a."""
-        return a ** 2
+    1. 
+    To create a docstring for a function we need to put string literal in the first line.
+        def square(a):
+            """Return the square of a."""
+            return a ** 2
 
-If we try to access to the documentation of the function, we will get  the result below.
-    In [7]: square?
-    Type: function
-    String form: <function square at 0x103713cb0>
-    Definition: square(a)
-    Docstring: Return the square of a.
+    If we try to access to the documentation of the function, we will get  the result below.
+        In [7]: square?
+        Type: function
+        String form: <function square at 0x103713cb0>
+        Definition: square(a)
+        Docstring: Return the square of a.
 
-2.
-To obtain the source code we use "??"
-    In [8]: square??
-    Type: function
-    String form: <function square at 0x103713cb0>
-    Definition: square(a)
-    Source:
-    def square(a):
-        "Return the square of a"
-        return a ** 2
+    2.
+    To obtain the source code we use "??"
+        In [8]: square??
+        Type: function
+        String form: <function square at 0x103713cb0>
+        Definition: square(a)
+        Source:
+        def square(a):
+            "Return the square of a"
+            return a ** 2
 
-3. %lprun, Line-by-Line profiler is external package can be installed with command >> pip install line_profiler, can calculate the time consumption of a line of a code block.
+    3. %lprun, Line-by-Line profiler is external package can be installed with command >> pip install line_profiler, can calculate the time consumption of a line of a code block.
 
 Notes about NumPy(Numerical Python):
-1. 
-Especially for larger arrays, it is more efficient to create arrays from scratch using routines built into Numpy;
+    1. 
+    Especially for larger arrays, it is more efficient to create arrays from scratch using routines built into Numpy;
 
-In[12]: # Create a length-10 integer array filled with zeros
-    np.zeros(10, dtype=int)
+    In[12]: # Create a length-10 integer array filled with zeros
+        np.zeros(10, dtype=int)
 
-Out[12]: array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+    Out[12]: array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
-In[13]: # Create a 3x5 floating-point array filled with 1s
-    np.ones((3, 5), dtype=float)
+    In[13]: # Create a 3x5 floating-point array filled with 1s
+        np.ones((3, 5), dtype=float)
 
-Out[13]: array([[ 1., 1., 1., 1., 1.],
-                [ 1., 1., 1., 1., 1.],
-                [ 1., 1., 1., 1., 1.]])
+    Out[13]: array([[ 1., 1., 1., 1., 1.],
+                    [ 1., 1., 1., 1., 1.],
+                    [ 1., 1., 1., 1., 1.]])
 
-In[14]: # Create a 3x5 array filled with 3.14
-    np.full((3, 5), 3.14)
+    In[14]: # Create a 3x5 array filled with 3.14
+        np.full((3, 5), 3.14)
 
-Out[14]: array([[ 3.14, 3.14, 3.14, 3.14, 3.14],
-                [ 3.14, 3.14, 3.14, 3.14, 3.14],
-                [ 3.14, 3.14, 3.14, 3.14, 3.14]])
+    Out[14]: array([[ 3.14, 3.14, 3.14, 3.14, 3.14],
+                    [ 3.14, 3.14, 3.14, 3.14, 3.14],
+                    [ 3.14, 3.14, 3.14, 3.14, 3.14]])
 
-In[15]: # Create an array filled with a linear sequence
-        # Starting at 0, ending at 20, stepping by 2
-        # (this is similar to the built-in range() function)
-        np.arange(0, 20, 2)
+    In[15]: # Create an array filled with a linear sequence
+            # Starting at 0, ending at 20, stepping by 2
+            # (this is similar to the built-in range() function)
+            np.arange(0, 20, 2)
 
-Out[15]: array([ 0, 2, 4, 6, 8, 10, 12, 14, 16, 18])
+    Out[15]: array([ 0, 2, 4, 6, 8, 10, 12, 14, 16, 18])
 
-In[16]: # Create an array of five values evenly spaced between 0 and 1
-    np.linspace(0, 1, 5)
+    In[16]: # Create an array of five values evenly spaced between 0 and 1
+        np.linspace(0, 1, 5)
 
-Out[16]: array([ 0. , 0.25, 0.5 , 0.75, 1. ])
+    Out[16]: array([ 0. , 0.25, 0.5 , 0.75, 1. ])
 
-In[17]: # Create a 3x3 array of uniformly distributed
-        # random values between 0 and 1
-    np.random.random((3, 3))
+    In[17]: # Create a 3x3 array of uniformly distributed
+            # random values between 0 and 1
+        np.random.random((3, 3))
 
-Out[17]: array([[ 0.99844933, 0.52183819, 0.22421193],
-                [ 0.08007488, 0.45429293, 0.20941444],
-                [ 0.14360941, 0.96910973, 0.946117 ]])
-In[18]: # Create a 3x3 array of normally distributed random values
-        # with mean 0 and standard deviation 1
-        np.random.normal(0, 1, (3, 3))
+    Out[17]: array([[ 0.99844933, 0.52183819, 0.22421193],
+                    [ 0.08007488, 0.45429293, 0.20941444],
+                    [ 0.14360941, 0.96910973, 0.946117 ]])
+    In[18]: # Create a 3x3 array of normally distributed random values
+            # with mean 0 and standard deviation 1
+            np.random.normal(0, 1, (3, 3))
 
-Out[18]: array([[ 1.51772646, 0.39614948, -0.10634696],
-                [ 0.25671348, 0.00732722, 0.37783601],
-                [ 0.68446945, 0.15926039, -0.70744073]])
+    Out[18]: array([[ 1.51772646, 0.39614948, -0.10634696],
+                    [ 0.25671348, 0.00732722, 0.37783601],
+                    [ 0.68446945, 0.15926039, -0.70744073]])
 
-In[19]: # Create a 3x3 array of random integers in the interval [0, 10)
-    np.random.randint(0, 10, (3, 3))
+    In[19]: # Create a 3x3 array of random integers in the interval [0, 10)
+        np.random.randint(0, 10, (3, 3))
 
-Out[19]: array([[2, 3, 4],
-                [5, 7, 8],
-                [0, 5, 0]])
+    Out[19]: array([[2, 3, 4],
+                    [5, 7, 8],
+                    [0, 5, 0]])
 
-In[20]: # Create a 3x3 identity matrix
-    np.eye(3)
+    In[20]: # Create a 3x3 identity matrix
+        np.eye(3)
 
-Out[20]: array([[ 1., 0., 0.],
-                [ 0., 1., 0.],
-                [ 0., 0., 1.]])
+    Out[20]: array([[ 1., 0., 0.],
+                    [ 0., 1., 0.],
+                    [ 0., 0., 1.]])
 
-In[21]: # Create an uninitialized array of three integers
-        # The values will be whatever happens to already exist at that
-        # memory location
-    np.empty(3)
+    In[21]: # Create an uninitialized array of three integers
+            # The values will be whatever happens to already exist at that
+            # memory location
+        np.empty(3)
 
-Out[21]: array([ 1., 1., 1.])
+    Out[21]: array([ 1., 1., 1.])
