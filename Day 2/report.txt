@@ -1,0 +1,29 @@
+1. Downloaded Artificial Intelligence: A Modern Approach.
+
+Notes about what is AI:
+    1.
+    There is confusion between AI(Artificial Intelligence) and ML(Machine Learning). ML is a subfield of AI that studies the ability to improve performance based on experience. Some AI systems use ML methods to achieve competence, but some do not.
+
+    2.
+    There are four approach:
+        a) Acting Humanly: The Turing test approach
+            The turing test is invented by Alan Turing in 1950. Test's purpose is weather a machine can think or not. Machine passes the test if an human questionnaire can't tell if responser a human or machine. The machine needs capabilities below in order to pass the test:
+                NLP(Natural Language processing) to communicate successfully in an human language;
+                Knowlede representation to store what it knows or hears;
+                Automated reasoning to answer questions and to draw new conclusions;
+                ML to adapt new circumstances and to detect and extrapolate patterns.
+
+            Total Turing Test is an expanded form of the Turing test, it requires interaction with objects and people in real world. To pass the total Turing test, a mavhine will need:
+                Computer vision and speech recognition to perceive the world;
+                Robotics to manipulate objects and move about.
+            
+            Resaerchers believe that it is more important to study the underlying principles of intelligence instead of passing the Turing test. We invented planes by leaving imitating birds and starting to study wind tunnels and aerodynamics.
+
+        b) Thinking humanly
+            In order to make a machine think like an human, we need to know how humans think. There are three ways to learn about human thought:
+                Introspection, trying to catch our own thoughts as they go by;
+                Psychological experiments, observing a person in action;
+                Brain imaging, observing the brain in action.
+                
+        c) Thinking rationally
+        d) Acting rationally 
