@@ -24,6 +24,14 @@ Notes about what is AI:
                 Introspection, trying to catch our own thoughts as they go by;
                 Psychological experiments, observing a person in action;
                 Brain imaging, observing the brain in action.
-                
-        c) Thinking rationally
-        d) Acting rationally 
+            
+            Once we have sufficiently model the human thought process we will be able to implement the process as AI. 
+
+            Cognitive science merges computer models of AI and experimental techniques of psychology to construct phisible theories for the purpose of AI.
+
+        c) Thinking rationally: The "laws of thought" approach
+            In principle, it allows the construction of a comprehensive model of rational thought, leading from raw perceptual information to an understanding of how the world works to predictions about the future. What it does not do, is generate intelligent behavior. For that we need rational action.
+             
+        d) Acting rationally: The rational agent approach
+            A rational agent is one that acts so as to achieve the best outcome or, when there is uncertainty, the best expected outcome.
+            The rational-agent approach has two advantages over the other approaches. First, it is more general than the "laws of thought" approach because correct inference is just one of several possible mechanisms for achieving rationality. Second, it is more amenable to scientific development. 
