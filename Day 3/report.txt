@@ -1,0 +1,25 @@
+1.
+Value alignment problem: the values or objectives put into the machine must be aligned with those of the human. A system deployed with an incorrect objective will have negative consequences. Moreover, the more intelligent the system, the more negative the consequences.
+
+2.
+We don't want machines to pursue their goals, we want them to pursue our objectives.
+
+AI and Philosophy :
+1.
+Aristotle was first to formulate a precise set of laws. He developed an informal system of syllogisms for proper reasoning.
+2.
+Ramon Llull tried to implement his system using an actual mechanical device.
+3.
+Leonardo da Vinci designed a functional mechanical calculator.
+4.
+Thomas Hobbes suggested the idea of a thinking machine "artificial animal". He said that the mind operates according to logical or numerical rules and we can build physical system that emulate some of those rules. 
+5.
+Descartes told that there is difference between mind and matter. Because if the micd is governed by physical laws, then it has no more free than a rock deciding to fall. Descartes' propose was "dualism" which means spirit and matter are seperate.
+6.
+David Hume proposed the principle of induction that general rules are acquired by exposure to repeated associations between their elements.
+7.
+Ludwig Wittgeinstein and Bernard Russell and a group of philosophers and mathematicians developed doctrine of "logical positivism" holding that all knowledge can be characterized by logical theories. 
+8.
+Rudolf Carnap published the book The Logical Structure of the World which is the first theory of mind as computational process.
+
+
