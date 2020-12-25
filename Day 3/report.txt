@@ -5,6 +5,11 @@ Value alignment problem: the values or objectives put into the machine must be a
 We don't want machines to pursue their goals, we want them to pursue our objectives.
 
 AI and Philosophy :
+Can formal rules be used to draw valid conclusions?
+How does the mind arise from a physical brain?
+Where does knowledge come from?
+How does knowledge lead to action?
+
 1.
 Aristotle was first to formulate a precise set of laws. He developed an informal system of syllogisms for proper reasoning.
 2.
@@ -21,5 +26,11 @@ David Hume proposed the principle of induction that general rules are acquired b
 Ludwig Wittgeinstein and Bernard Russell and a group of philosophers and mathematicians developed doctrine of "logical positivism" holding that all knowledge can be characterized by logical theories. 
 8.
 Rudolf Carnap published the book The Logical Structure of the World which is the first theory of mind as computational process.
+
+AI and Mathematics:
+What are the formal rules to draw valid conclusions?
+What can be computed?
+How do we reason with uncertain information?
+
 
 
