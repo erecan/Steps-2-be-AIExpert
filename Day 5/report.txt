@@ -1,0 +1,4 @@
+I gave break to theorical part of AI and started to study ML from Hands-On Machine Learning with Scikit-Learn and Tensorflow by Aurélien Géron.
+Notes:
+1.
+Machine Learning is the field of study that gives computers the ability to learn without being explicitly programmed
